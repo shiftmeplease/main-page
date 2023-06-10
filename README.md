@@ -15,5 +15,7 @@ Contains the following scripts:
 | start a vite dev server 🚀 | npm run dev     | yarn dev     | pnpm dev     |
 | build the project 📦       | npm run build   | yarn build   | pnpm build   |
 | preview build 🎉           | npm run preview | yarn preview | pnpm preview |
+| preview build 🎉           | npm run preview | yarn preview | pnpm preview |
 
 
+TODO...

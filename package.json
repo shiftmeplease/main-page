@@ -12,7 +12,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clearFolder": "sudo rm -rf /var/www/html/assets/ && sudo rm /var/www/html/index.html",
+    "copyToNginx": "sudo cp ./dist/. /var/www/html/ -r",
+    "updateNginx": "npm run clearFolder && npm run copyToNginx"
   },
   "private": false,
   "devDependencies": {
