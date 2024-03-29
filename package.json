@@ -1,9 +1,8 @@
 {
-  "name": "tailwind-vite-boilerplate",
-  "version": "0.0.1",
-  "description": "tailwind and vite boilerplate",
+  "name": "main-apge",
+  "version": "0.0.2",
+  "description": "Main page for oamen.ru",
   "main": "main.js",
-  "author": "sadman-shami <srahyme413@gmail.com>",
   "license": "MIT",
   "type": "module",
   "repository": {
@@ -17,7 +16,7 @@
     "copyToNginx": "sudo cp ./dist/. /var/www/html/ -r",
     "updateNginx": "npm run clearFolder && npm run copyToNginx"
   },
-  "private": false,
+  "private": true,
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
